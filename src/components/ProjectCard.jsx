@@ -11,14 +11,14 @@ function ProjectCard({ project }) {
       </div>
       <p className="project-description">{project.description}</p>
       <div className="project-links">
-        <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
-          GitHub
+        <a 
+          href={project.demo} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="project-link"
+        >
+          Ver projeto →
         </a>
-        {project.demo && (
-          <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-link">
-            Demo
-          </a>
-        )}
       </div>
     </div>
   )

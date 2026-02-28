@@ -18,10 +18,8 @@ function Footer() {
         >
           LinkedIn
         </a>
-        <a href="mailto:gusta.brito@icloud.com">
-
-  Email
-
+       <a href="mailto:seuemail@gmail.com">
+  Entre em Contato
 </a>
       </div>
     </footer>
@@ -29,3 +27,4 @@ function Footer() {
 }
 
 export default Footer
+
